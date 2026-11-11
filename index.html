@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Informasi paket internet MyRepublic dan konsultasi pemasangan untuk wilayah Kendal. Cek ketersediaan jaringan melalui WhatsApp.">
+<meta name="theme-color" content="#4b168f">
+<title>MyRepublic Kendal | Konsultasi & Pendaftaran</title>
+<style>
+:root{--purple:#4b168f;--deep:#26084f;--red:#e53945;--yellow:#ffd34e;--ink:#211a2b;--muted:#6e6878;--bg:#faf8fd;--line:#eee8f5}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;background:#ffffffed;backdrop-filter:blur(12px);border-bottom:1px solid var(--line);z-index:5}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:900;color:var(--purple);font-size:1.2rem;letter-spacing:-.5px}.brand span{color:var(--red)}
+nav{display:flex;gap:22px;font-size:.92rem;color:#50485c}nav a:hover{color:var(--purple)}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 19px;border-radius:12px;background:var(--red);color:white;font-weight:800;border:0;cursor:pointer;box-shadow:0 8px 20px #e539452b}.btn:hover{transform:translateY(-1px)}
+.btn.secondary{background:white;color:var(--purple);border:1px solid #d9c9ed;box-shadow:none}
+.hero{background:radial-gradient(circle at 85% 15%,#7d43bf 0,transparent 28%),linear-gradient(125deg,var(--deep),var(--purple));color:#fff;padding:78px 0 74px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:40px}.eyebrow{display:inline-block;background:#ffffff1c;border:1px solid #ffffff40;border-radius:99px;padding:7px 12px;font-size:.82rem;font-weight:700}
+h1{font-size:clamp(2.35rem,5vw,4.2rem);line-height:1.08;letter-spacing:-2px;margin:20px 0}.hero p{font-size:1.1rem;color:#eee4fa;max-width:590px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.signal-card{background:#fff;color:var(--ink);padding:25px;border-radius:24px;box-shadow:0 25px 60px #14042e55;transform:rotate(2deg)}.signal-top{display:flex;justify-content:space-between;align-items:center}.signal-dot{width:10px;height:10px;background:#27bd78;border-radius:50%;display:inline-block;margin-right:7px}.speed{font-size:3.5rem;line-height:1;font-weight:900;color:var(--purple);margin:22px 0 5px}.signal-card small{color:var(--muted)}.signal-line{height:9px;background:#eee7f7;border-radius:20px;margin-top:22px;overflow:hidden}.signal-line:after{content:"";display:block;width:82%;height:100%;background:linear-gradient(90deg,var(--purple),#a36be0);border-radius:20px}
+section{padding:70px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 36px}.section-head h2{font-size:2rem;letter-spacing:-.8px;margin:0 0 9px}.section-head p{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border:1px solid var(--line);border-radius:20px;padding:24px;background:white;box-shadow:0 10px 28px #2c16400a;position:relative}.card.featured{border:2px solid var(--purple);box-shadow:0 14px 35px #4b168f18}.tag{display:inline-block;background:#f2eafa;color:var(--purple);padding:5px 10px;border-radius:99px;font-size:.75rem;font-weight:800}.card h3{font-size:1.15rem;margin:14px 0 4px}.price{font-size:1.9rem;font-weight:900;color:var(--purple);letter-spacing:-1px}.price small{font-size:.85rem;color:var(--muted);font-weight:500;letter-spacing:0}.card ul{padding-left:19px;color:#5d5666;font-size:.92rem;min-height:90px}.card .btn{width:100%;margin-top:8px}
+.soft{background:var(--bg)}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{padding:22px;border-radius:18px;background:#fff;border:1px solid var(--line)}.icon{width:42px;height:42px;display:grid;place-items:center;background:#f1e8fb;border-radius:13px;font-size:1.3rem}.feature h3{margin:12px 0 5px}.feature p{margin:0;color:var(--muted);font-size:.94rem}
+.coverage{background:linear-gradient(120deg,#f7f1ff,#fff8f1);border:1px solid #eee2fa;border-radius:24px;padding:34px;display:grid;grid-template-columns:1fr auto;gap:25px;align-items:center}.coverage h2{margin:0 0 7px}.coverage p{margin:0;color:var(--muted)}
+.faq{max-width:800px;margin:auto}.faq details{border-bottom:1px solid var(--line);padding:18px 2px}.faq summary{font-weight:800;cursor:pointer}.faq p{color:var(--muted);margin-bottom:0}
+footer{background:#1e1030;color:#eee4fa;padding:35px 0}.footer-row{display:flex;justify-content:space-between;gap:25px;align-items:center}.footer-row p{margin:5px 0;color:#c9b9d9;font-size:.88rem}.disclaimer{font-size:.78rem;color:#bdaecc;max-width:700px;margin-top:20px}
+.wa-float{position:fixed;right:18px;bottom:18px;z-index:6;background:#18a957;color:#fff;padding:13px 17px;border-radius:99px;font-weight:800;box-shadow:0 8px 25px #0003}
+@media(max-width:800px){nav{display:none}.hero-grid{grid-template-columns:1fr}.signal-card{max-width:420px;transform:none}.cards,.features{grid-template-columns:1fr}.coverage{grid-template-columns:1fr}.footer-row{display:block}.hero{padding:58px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#">MyRepublic <span>Kendal</span></a>
+<nav><a href="#paket">Paket</a><a href="#keunggulan">Keunggulan</a><a href="#coverage">Cek Area</a><a href="#faq">FAQ</a></nav>
+<a class="btn" href="https://wa.me/6287880767154?text=Halo%20Faiz%2C%20saya%20ingin%20konsultasi%20MyRepublic%20Kendal" target="_blank" rel="noopener">Konsultasi</a>
+</div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+<div><span class="eyebrow">INFORMASI & KONSULTASI INTERNET • KENDAL</span>
+<h1>Internet rumah yang siap menemani aktivitasmu.</h1>
+<p>Lihat pilihan paket MyRepublic, tanyakan ketersediaan jaringan, dan dapatkan pendampingan pendaftaran hingga proses instalasi.</p>
+<div class="hero-actions"><a class="btn" href="#paket">Lihat Paket Internet</a><a class="btn secondary" href="#coverage">Cek Area Saya</a></div>
+</div>
+<div class="signal-card"><div class="signal-top"><strong>MYREPUBLIC KENDAL</strong><span><i class="signal-dot"></i><small>Info layanan</small></span></div><div class="speed">Up to<br>400 Mbps</div><small>Pilihan paket sesuai kebutuhan rumah dan aktivitas digital.</small><div class="signal-line"></div><p style="margin:12px 0 0;font-weight:700;color:#4b168f">Konsultasi sebelum daftar</p></div>
+</div></section>
+
+<section id="paket"><div class="wrap"><div class="section-head"><h2>Pilih paket internet</h2><p>Berikut gambaran pilihan paket. Harga dan promo perlu dikonfirmasi sebelum pendaftaran karena dapat berubah.</p></div>
+<div class="cards">
+<div class="card"><span class="tag">Hemat</span><h3>Santai</h3><div class="price">Rp150.000 <small>/ bulan</small></div><ul><li>Kecepatan hingga 50 Mbps</li><li>Cocok untuk kebutuhan harian</li><li>Ideal untuk rumah dengan penggunaan ringan</li></ul><a class="btn" href="https://wa.me/6287880767154?text=Halo%2C%20saya%20tertarik%20paket%20Santai%2050%20Mbps" target="_blank" rel="noopener">Tanya Paket</a></div>
+<div class="card"><span class="tag">Pilihan keluarga</span><h3>Sahabat</h3><div class="price">Rp205.350 <small>/ bulan</small></div><ul><li>Kecepatan hingga 75 Mbps</li><li>Untuk aktivitas beberapa perangkat</li><li>Konfirmasi promo dan ketentuan</li></ul><a class="btn" href="https://wa.me/6287880767154?text=Halo%2C%20saya%20tertarik%20paket%20Sahabat%2075%20Mbps" target="_blank" rel="noopener">Tanya Paket</a></div>
+<div class="card featured"><span class="tag">Favorit</span><h3>Neo</h3><div class="price">Rp233.100 <small>/ bulan</small></div><ul><li>Kecepatan hingga 200 Mbps</li><li>Untuk streaming dan aktivitas online</li><li>Konfirmasi promo dan ketentuan</li></ul><a class="btn" href="https://wa.me/6287880767154?text=Halo%2C%20saya%20tertarik%20paket%20Neo%20200%20Mbps" target="_blank" rel="noopener">Tanya Paket</a></div>
+<div class="card"><span class="tag">Lebih kencang</span><h3>Velo</h3><div class="price">Rp277.500 <small>/ bulan</small></div><ul><li>Kecepatan hingga 300 Mbps</li><li>Untuk kebutuhan digital lebih intensif</li><li>Konfirmasi promo dan ketentuan</li></ul><a class="btn" href="https://wa.me/6287880767154?text=Halo%2C%20saya%20tertarik%20paket%20Velo%20300%20Mbps" target="_blank" rel="noopener">Tanya Paket</a></div>
+<div class="card"><span class="tag">Performa tinggi</span><h3>Nexus</h3><div class="price">Rp333.000 <small>/ bulan</small></div><ul><li>Kecepatan hingga 400 Mbps</li><li>Untuk kebutuhan koneksi berkapasitas tinggi</li><li>Konfirmasi promo dan ketentuan</li></ul><a class="btn" href="https://wa.me/6287880767154?text=Halo%2C%20saya%20tertarik%20paket%20Nexus%20400%20Mbps" target="_blank" rel="noopener">Tanya Paket</a></div>
+<div class="card"><span class="tag">Butuh rekomendasi?</span><h3>Belum yakin pilih paket?</h3><p style="color:#6e6878">Ceritakan jumlah perangkat dan aktivitas di rumah. Kami bantu arahkan pilihan yang sesuai.</p><a class="btn" href="https://wa.me/6287880767154?text=Halo%2C%20bantu%20rekomendasikan%20paket%20internet%20untuk%20rumah%20saya" target="_blank" rel="noopener">Minta Rekomendasi</a></div>
+</div></div></section>
+
+<section class="soft" id="keunggulan"><div class="wrap"><div class="section-head"><h2>Bukan cuma daftar, ada pendampingan</h2><p>Informasi yang jelas sejak konsultasi sampai layanan aktif.</p></div>
+<div class="features">
+<div class="feature"><div class="icon">📍</div><h3>Cek ketersediaan area</h3><p>Jaringan perlu dicek berdasarkan alamat lengkap sebelum pengajuan.</p></div>
+<div class="feature"><div class="icon">📝</div><h3>Bantuan pendaftaran</h3><p>Dibantu memahami paket dan menyiapkan data pendaftaran dengan benar.</p></div>
+<div class="feature"><div class="icon">🛠️</div><h3>Pendampingan instalasi</h3><p>Informasi proses pemasangan dan bantuan komunikasi jika ada kendala.</p></div>
+</div></div></section>
+
+<section id="coverage"><div class="wrap"><div class="coverage"><div><h2>Cek apakah rumahmu sudah terjangkau</h2><p>Kirim nama desa/kelurahan, kecamatan, dan patokan alamat. Ketersediaan tetap perlu diverifikasi.</p></div><a class="btn" href="https://wa.me/6287880767154?text=Halo%20Faiz%2C%20saya%20ingin%20cek%20coverage.%20Alamat%20saya%3A" target="_blank" rel="noopener">Cek Coverage via WhatsApp</a></div></div></section>
+
+<section id="faq" class="soft"><div class="wrap"><div class="section-head"><h2>Pertanyaan umum</h2><p>Hal penting sebelum melakukan pendaftaran.</p></div><div class="faq">
+<details><summary>Apakah semua wilayah Kendal sudah terjangkau?</summary><p>Belum tentu. Ketersediaan jaringan berbeda di setiap desa, jalan, bahkan lingkungan. Hubungi kami untuk pengecekan alamat.</p></details>
+<details><summary>Apakah harga di website sudah pasti?</summary><p>Harga di halaman ini merupakan informasi awal. Paket, pajak, promo, biaya, dan ketentuan terbaru harus dikonfirmasi sebelum pendaftaran.</p></details>
+<details><summary>Bagaimana proses pendaftarannya?</summary><p>Mulai dari konsultasi dan pengecekan area, pemilihan paket, pengisian data, verifikasi, lalu penjadwalan instalasi sesuai ketersediaan.</p></details>
+<details><summary>Apakah website ini situs resmi pusat MyRepublic?</summary><p>Bukan. Ini halaman informasi dan konsultasi lokal yang dikelola sales independen/mitra penjualan. Untuk kebijakan dan informasi resmi perusahaan, silakan merujuk ke kanal resmi MyRepublic.</p></details>
+</div></div></section>
+</main>
+<footer><div class="wrap"><div class="footer-row"><div><strong style="font-size:1.2rem">MyRepublic Kendal</strong><p>Informasi, konsultasi, dan pendaftaran internet wilayah Kendal.</p></div><div><strong>Faiz • Konsultasi & Pendaftaran</strong><p>WhatsApp: 0878-8076-7154</p><a class="btn" href="https://wa.me/6287880767154" target="_blank" rel="noopener">Chat WhatsApp</a></div></div>
+<p class="disclaimer">Halaman ini dikelola secara independen untuk informasi dan konsultasi lokal, bukan situs resmi perusahaan MyRepublic. Nama dan merek MyRepublic merupakan milik pemegang haknya. Harga, promo, cakupan jaringan, kecepatan, serta ketentuan layanan dapat berubah dan wajib dikonfirmasi sebelum berlangganan.</p></div></footer>
+<a class="wa-float" href="https://wa.me/6287880767154?text=Halo%20Faiz%2C%20saya%20dari%20website%20MyRepublic%20Kendal" target="_blank" rel="noopener">WhatsApp ↗</a>
+</body></html>
