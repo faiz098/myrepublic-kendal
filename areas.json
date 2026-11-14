@@ -1,0 +1,237 @@
+{
+  "wilayah": [
+    {
+      "nama": "Bandengan",
+      "kecamatan": "Kendal",
+      "rw": ["01", "02", "03", "04"]
+    },
+    {
+      "nama": "Banyutowo",
+      "kecamatan": "Kendal",
+      "rw": ["01", "02", "03", "04", "05"]
+    },
+    {
+      "nama": "Banyuurip",
+      "kecamatan": "Kendal",
+      "rw": ["01", "02", "03", "04"]
+    },
+    {
+      "nama": "Brangsong",
+      "kecamatan": "Brangsong",
+      "rw": ["01", "02", "03", "04", "05", "06", "07", "08"]
+    },
+    {
+      "nama": "Bugangin",
+      "kecamatan": "Kendal",
+      "rw": ["01", "02"]
+    },
+    {
+      "nama": "Bulak",
+      "kecamatan": "Rowosari",
+      "rw": ["01", "02", "03", "04", "05"]
+    },
+    {
+      "nama": "Bumiyu",
+      "kecamatan": "Weleri",
+      "rw": ["01", "02", "03", "04", "05", "06", "07"]
+    },
+    {
+      "nama": "Candiroto",
+      "kecamatan": "Kendal",
+      "rw": ["01", "02", "03"]
+    },
+    {
+      "nama": "Caruban",
+      "kecamatan": "Ringinarum",
+      "rw": ["01", "03", "04"]
+    },
+    {
+      "nama": "Cepiring",
+      "kecamatan": "Cepiring",
+      "rw": ["01", "03", "04"]
+    },
+    {
+      "nama": "Darupono",
+      "kecamatan": "Kaliwungu Selatan",
+      "rw": ["01", "02", "03", "04", "05", "06"]
+    },
+    {
+      "nama": "Gempolsewu",
+      "kecamatan": "Rowosari",
+      "rw": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "13", "15"]
+    },
+    {
+      "nama": "Gringsing",
+      "kecamatan": "Gringsing",
+      "rw": ["01", "02", "03", "04", "05", "06", "07", "08", "09"]
+    },
+    {
+      "nama": "Jambe Arum",
+      "kecamatan": "Patebon",
+      "rw": ["01", "02", "04", "05"]
+    },
+    {
+      "nama": "Jenarsari",
+      "kecamatan": "Gemuh",
+      "rw": ["01", "03", "04", "05"]
+    },
+    {
+      "nama": "Kebondalem",
+      "kecamatan": "Kendal",
+      "rw": ["01", "04", "06"]
+    },
+    {
+      "nama": "Kebonsari",
+      "kecamatan": "Kendal",
+      "rw": ["02", "03", "04"]
+    },
+    {
+      "nama": "Ketapang",
+      "kecamatan": "Kendal",
+      "rw": ["01", "02", "03", "04", "05", "06", "07", "08"]
+    },
+    {
+      "nama": "Kutosari",
+      "kecamatan": "Kendal",
+      "rw": ["01", "02", "03", "04", "05", "06", "07", "08"]
+    },
+    {
+      "nama": "Magelung",
+      "kecamatan": "Kaliwungu Selatan",
+      "rw": ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10"]
+    },
+    {
+      "nama": "Manggungsari",
+      "kecamatan": "Weleri",
+      "rw": ["01", "02", "03", "04", "05", "06", "07", "08", "09"]
+    },
+    {
+      "nama": "Montongsari",
+      "kecamatan": "Weleri",
+      "rw": ["01", "02", "03", "04", "05"]
+    },
+    {
+      "nama": "Nawangsari",
+      "kecamatan": "Weleri",
+      "rw": ["01", "03"]
+    },
+    {
+      "nama": "Penaruban",
+      "kecamatan": "Weleri",
+      "rw": ["03", "04", "05", "06", "07"]
+    },
+    {
+      "nama": "Penjalin",
+      "kecamatan": "Brangsong",
+      "rw": ["01", "02", "03"]
+    },
+    {
+      "nama": "Penyangkringan",
+      "kecamatan": "Weleri",
+      "rw": ["01", "02", "04", "05", "09", "10", "14", "16", "17"]
+    },
+    {
+      "nama": "Puguh",
+      "kecamatan": "Boja",
+      "rw": ["01", "02", "03", "04", "05", "06"]
+    },
+    {
+      "nama": "Purwokerto",
+      "kecamatan": "Patebon",
+      "rw": ["01", "02", "03", "04", "05", "06"]
+    },
+    {
+      "nama": "Purworejo",
+      "kecamatan": "Ringinarum",
+      "rw": ["01", "02", "03", "04", "05"]
+    },
+    {
+      "nama": "Rowosari",
+      "kecamatan": "Rowosari",
+      "rw": ["01", "02", "03", "04", "05"]
+    },
+    {
+      "nama": "Sendangdawung",
+      "kecamatan": "Kangkung",
+      "rw": ["01", "02", "03", "04"]
+    },
+    {
+      "nama": "Sidomukti",
+      "kecamatan": "Weleri",
+      "rw": ["01", "02", "03", "04", "05", "06", "07"]
+    },
+    {
+      "nama": "Sumur",
+      "kecamatan": "Kendal",
+      "rw": ["01", "02", "03", "04", "05", "06", "07", "08"]
+    },
+    {
+      "nama": "Tejorejo",
+      "kecamatan": "Ringinarum",
+      "rw": ["01", "02", "03", "04", "05", "06"]
+    },
+    {
+      "nama": "Tunggulsari",
+      "kecamatan": "Brangsong",
+      "rw": ["01", "02", "03", "04", "05", "06", "07", "08", "09"]
+    },
+    {
+      "nama": "Weleri",
+      "kecamatan": "Weleri",
+      "rw": ["01", "02", "03", "06"]
+    },
+    {
+      "nama": "Yosorejo",
+      "kecamatan": "Kangkung",
+      "rw": ["01", "02", "03", "04"]
+    }
+  ],
+  "perumahan": [
+    "Cluster Amarryllis dan Magnolia",
+    "Grand Pakuwon Asri",
+    "Griya Alfathul Regency",
+    "Griya Kertomulyo Asri",
+    "Griya Pantura Regency 2",
+    "Nirwana Residence",
+    "Perum Cepiring Permata Indah",
+    "Perum Griya Hikmah Lestari",
+    "Perum Griya Nirwana 1",
+    "Perum Pesona Baru",
+    "Perum Pondok Brangsong Baru",
+    "Perum Pondok Karya",
+    "Perum Puri Delta Asri 6",
+    "Perum Puri Delta Asri 7",
+    "Perumahan BTN Kendal",
+    "Perumahan Bumiayu Residence",
+    "Perumahan Cahaya Waleri Asri",
+    "Perumahan Citra Harmoni 2",
+    "Perumahan Citra Harmoni 6",
+    "Perumahan Graha Asri Rejosari",
+    "Perumahan Graha Maritza",
+    "Perumahan Graha Pandawa",
+    "Perumahan Graha Pandawa Extension",
+    "Perumahan Green Orchard",
+    "Perumahan Griya Arfasya Brangsong",
+    "Perumahan Griya Harapan Penyangkringan",
+    "Perumahan Griya Sakinah Patebon",
+    "Perumahan GTS Botomulyo",
+    "Perumahan Kaliwungu Indah",
+    "Perumahan Kaliwungu Permai",
+    "Perumahan Mutiara Jenarsari Gemuh",
+    "Perumahan Patebon Asri",
+    "Perumahan Patebon Indah",
+    "Perumahan Permata Jenarsari Gemuh",
+    "Perumahan Puri Delta 9",
+    "Perumahan Puri Delta Asri 9 Extension 2",
+    "Perumahan Purwokerto Indah",
+    "Perumahan Sehati Kendal",
+    "Perumahan Sehati Blok F",
+    "Perumahan Sultan Residence 1 Cepiring",
+    "Perumahan Taman Puri Protomulyo",
+    "Perumahan Taman Semanggi",
+    "Perumahan Taman Sakura Jenarsari",
+    "Perumahan Rahayu Mutiara Indah",
+    "Perumahan Pelita Asri Sidomukti"
+  ],
+  "catatan": "Database awal berdasarkan daftar cluster internal. Pencantuman wilayah bukan jaminan seluruh alamat dapat dipasang. Konfirmasi alamat lengkap diperlukan."
+    }
