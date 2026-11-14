@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://faiz098.github.io/myrepublic-kendal/sitemap.xml
