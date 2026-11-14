@@ -771,11 +771,21 @@
         const detail = document.createElement("p");
         detail.textContent = w.detail;
 
-        const catatan = document.createElement("small");
-        catatan.textContent =
-          "Ketersediaan perlu dikonfirmasi berdasarkan alamat lengkap.";
+        const catatan = document.createElement("p");
+catatan.textContent =
+  "Ketersediaan perlu dikonfirmasi berdasarkan alamat lengkap.";
 
-        kartu.append(nama, detail, catatan);
+const tombol = document.createElement("a");
+const pesan = "Halo, saya ingin cek pemasangan MyRepublic di wilayah " + w.nama + ". Mohon bantu cek ketersediaan jaringan.";
+
+tombol.href = "https://wa.me/6287880767154?text=" + encodeURIComponent(pesan);
+tombol.target = "_blank";
+tombol.rel = "noopener";
+tombol.textContent = "Konsultasi via WhatsApp";
+tombol.style.cssText =
+  "display:inline-block;background:#401078;color:white;padding:10px 16px;border-radius:8px;text-decoration:none;font-weight:bold;margin-top:8px;";
+
+kartu.append(nama, detail, catatan, tombol);
         hasil.appendChild(kartu);
       });
     });
