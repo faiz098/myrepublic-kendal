@@ -21,7 +21,84 @@
       --shadow: 0 14px 38px rgba(39, 13, 70, .09);
     }
     * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; scroll-padding-top: 90px; }
+    html { scroll-behavior: smooth; scroll-padding-top: 90px; 
+    <section class="soft" id="cek-area">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Cek Jangkauan MyRepublic</h2>
+      <p>Cari desa, kelurahan, RW, atau perumahan di wilayah layanan kami.</p>
+    </div>
+
+    <div style="max-width:650px;margin:auto;">
+      <input
+        type="search"
+        id="cariArea"
+        placeholder="Ketik nama wilayah, contoh: Bandengan..."
+        style="width:100%;padding:16px;border:1px solid #ddd;border-radius:12px;font-size:16px;"
+      >
+      <div id="hasilArea" style="margin-top:18px;"></div>
+    </div>
+  </div>
+</section>
+
+<script>
+(async function () {
+  const input = document.getElementById("cariArea");
+  const hasil = document.getElementById("hasilArea");
+
+  try {
+    const response = await fetch("./areas.json");
+    if (!response.ok) throw new Error("Database tidak ditemukan");
+
+    const data = await response.json();
+
+    const daftar = [
+      ...(data.wilayah || []).map(w => ({
+        nama: w.nama,
+        detail: "Kecamatan " + w.kecamatan +
+          " | RW " + w.rw.join(", ")
+      })),
+      ...(data.perumahan || []).map(nama => ({
+        nama,
+        detail: "Wilayah perumahan"
+      }))
+    ];
+
+    input.addEventListener("input", function () {
+      const kata = this.value.trim().toLowerCase();
+
+      if (!kata) {
+        hasil.innerHTML = "";
+        return;
+      }
+
+      const ditemukan = daftar.filter(w =>
+        (w.nama + " " + w.detail).toLowerCase().includes(kata)
+      );
+
+      if (!ditemukan.length) {
+        hasil.innerHTML = `
+          <p>Wilayah belum ditemukan dalam database.
+          Silakan konsultasi untuk pengecekan alamat.</p>
+        `;
+        return;
+      }
+
+      hasil.innerHTML = ditemukan.map(w => `
+        <div style="background:white;padding:18px;margin-bottom:12px;border:1px solid #eee;border-radius:14px;">
+          <strong>${w.nama}</strong>
+          <p>${w.detail}</p>
+          <small>Jangkauan perlu dikonfirmasi berdasarkan alamat lengkap.</small>
+        </div>
+      `).join("");
+    });
+
+  } catch (error) {
+    hasil.textContent = "Database area belum dapat dimuat. Silakan konsultasi melalui WhatsApp.";
+  }
+})();
+</script>
+    }
     body {
       margin: 0;
       color: var(--ink);
