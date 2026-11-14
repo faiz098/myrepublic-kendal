@@ -716,5 +716,79 @@
     </div>
   </div>
   </section>
+  <script>
+(async function () {
+  const input = document.getElementById("cariArea");
+  const hasil = document.getElementById("hasilArea");
+
+  let daftar = [];
+
+  try {
+    const response = await fetch("./areas.json");
+
+    if (!response.ok) {
+      throw new Error("Database tidak ditemukan");
+    }
+
+    const data = await response.json();
+
+    daftar = [
+      ...(data.wilayah || []).map(w => ({
+        nama: w.nama,
+        detail: "Kecamatan " + w.kecamatan +
+          " | RW " + (w.rw || []).join(", ")
+      })),
+      ...(data.perumahan || []).map(nama => ({
+        nama: nama,
+        detail: "Wilayah perumahan"
+      }))
+    ];
+
+    input.addEventListener("input", function () {
+      const kata = this.value.trim().toLowerCase();
+      hasil.replaceChildren();
+
+      if (!kata) return;
+
+      const ditemukan = daftar.filter(w =>
+        (w.nama + " " + w.detail).toLowerCase().includes(kata)
+      );
+
+      if (ditemukan.length === 0) {
+        hasil.textContent =
+          "Wilayah belum ditemukan. Silakan konsultasi untuk pengecekan alamat.";
+        return;
+      }
+
+      ditemukan.forEach(w => {
+        const kartu = document.createElement("div");
+        kartu.style.cssText =
+          "background:white;padding:16px;margin:12px 0;border:1px solid #eee;border-radius:12px;";
+
+        const nama = document.createElement("strong");
+        nama.textContent = w.nama;
+
+        const detail = document.createElement("p");
+        detail.textContent = w.detail;
+
+        const catatan = document.createElement("small");
+        catatan.textContent =
+          "Ketersediaan perlu dikonfirmasi berdasarkan alamat lengkap.";
+
+        kartu.append(nama, detail, catatan);
+        hasil.appendChild(kartu);
+      });
+    });
+
+  } catch (error) {
+    hasil.textContent =
+      "Database area belum dapat dimuat. Silakan hubungi kami melalui WhatsApp.";
+    console.error(error);
+  }
+})();
+</script>
+
+</body>
+</html>
 </body>
 </html>
