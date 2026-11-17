@@ -356,7 +356,7 @@
         <a href="#paket">Paket</a>
         <a href="#keunggulan">Keunggulan</a>
         <a href="#pendampingan">Pendampingan</a>
-        <a href="#coverage">Cek Area</a>
+        <a href="#cek-area">Cek Area</a>
         <a href="#faq">FAQ</a>
       </nav>
       <a class="btn nav-cta" href="https://wa.me/6287880767154?text=Halo%20Faizudin%2C%20saya%20ingin%20konsultasi%20MyRepublic%20Kendal" target="_blank" rel="noopener">Konsultasi</a>
@@ -651,93 +651,7 @@
         </div>
       </div>
     </section>
-
-    <section class="soft" id="faq">
-      <div class="wrap">
-        <div class="section-head">
-          <h2>Pertanyaan yang sering diajukan</h2>
-          <p>Jawaban singkat untuk membantu sebelum konsultasi.</p>
-        </div>
-        <div class="faq">
-          <details>
-            <summary>Apakah biaya pemasangan benar-benar gratis?</summary>
-            <p>Tersedia penawaran gratis biaya pemasangan senilai Rp500.000 dengan syarat dan ketentuan berlaku. Kelayakan alamat, program, dan ketentuan terbaru perlu dikonfirmasi sebelum pendaftaran.</p>
-          </details>
-          <details>
-            <summary>Apakah semua wilayah Kendal sudah terjangkau?</summary>
-            <p>Belum tentu. Ketersediaan jaringan bisa berbeda antar desa, jalan, dan lingkungan. Kirim alamat lengkap untuk pengecekan terlebih dahulu.</p>
-          </details>
-          <details>
-            <summary>Apakah harga paket di website sudah pasti?</summary>
-            <p>Harga yang tercantum adalah informasi awal berdasarkan data yang tersedia saat halaman diperbarui. Harga, pajak, promo, dan ketentuan terbaru wajib dikonfirmasi sebelum pendaftaran.</p>
-          </details>
-          <details>
-            <summary>Apakah WiFi bisa menggunakan 2,4 GHz dan 5 GHz?</summary>
-            <p>Dukungan dual band bergantung pada perangkat/ONT yang diberikan dan perangkat pelanggan. Konfirmasikan spesifikasi perangkat saat konsultasi.</p>
-          </details>
-          <details>
-            <summary>Apakah saya tetap bisa menghubungi Faizudin setelah pemasangan?</summary>
-            <p>Ya. Pelanggan yang mendaftar melalui halaman ini dapat menghubungi Faizudin untuk konsultasi dan pendampingan selama berlangganan. Untuk gangguan teknis, laporan tetap mengikuti kanal resmi MyRepublic.</p>
-          </details>
-          <details>
-            <summary>Apakah halaman ini website resmi pusat MyRepublic?</summary>
-            <p>Bukan. Ini halaman informasi dan konsultasi lokal yang dikelola oleh Faizudin sebagai sales. Nama dan merek MyRepublic merupakan milik pemegang haknya.</p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <div class="wrap">
-        <div class="contact-card">
-          <h2>Butuh bantuan memilih paket?</h2>
-          <p>Konsultasikan kebutuhan dan alamatmu terlebih dahulu. Kami bantu jelaskan pilihan paket serta proses pendaftarannya.</p>
-          <a class="btn" href="https://wa.me/6287880767154?text=Halo%20Faizudin%2C%20saya%20ingin%20konsultasi%20internet%20MyRepublic%20Kendal." target="_blank" rel="noopener">Chat Faizudin · 0878-8076-7154</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="wrap">
-      <div class="footer-row">
-        <div>
-          <strong style="font-size:1.2rem">MyRepublic Kendal</strong>
-          <p>Informasi, konsultasi, dan pendampingan pendaftaran internet.</p>
-        </div>
-        <div>
-          <strong>Faizudin · Konsultasi & Pendaftaran</strong>
-          <p>WhatsApp: 0878-8076-7154</p>
-          <a class="btn" href="https://wa.me/6287880767154" target="_blank" rel="noopener">Hubungi WhatsApp</a>
-        </div>
-      </div>
-      <p class="disclaimer">Halaman ini dikelola secara independen oleh Faizudin untuk informasi dan konsultasi lokal, bukan situs resmi perusahaan MyRepublic. Harga, promo, cakupan jaringan, kecepatan, perangkat, serta ketentuan layanan dapat berubah dan wajib dikonfirmasi sebelum berlangganan. Penawaran gratis pemasangan senilai Rp500.000 tunduk pada syarat dan ketentuan yang berlaku.</p>
-    </div>
-  </footer>
-
-  <a class="wa-float" href="https://wa.me/6287880767154?text=Halo%20Faizudin%2C%20saya%20dari%20website%20MyRepublic%20Kendal." target="_blank" rel="noopener" aria-label="Chat WhatsApp Faizudin">WhatsApp ↗</a>
-
-  <script>
-    const menuToggle = document.getElementById('menuToggle');
-    const navLinks = document.getElementById('navLinks');
-
-    menuToggle.addEventListener('click', function () {
-      const isOpen = navLinks.classList.toggle('open');
-      menuToggle.setAttribute('aria-expanded', String(isOpen));
-      menuToggle.setAttribute('aria-label', isOpen ? 'Tutup menu' : 'Buka menu');
-      menuToggle.textContent = isOpen ? '×' : '☰';
-    });
-
-    navLinks.querySelectorAll('a').forEach(function (link) {
-      link.addEventListener('click', function () {
-        navLinks.classList.remove('open');
-        menuToggle.setAttribute('aria-expanded', 'false');
-        menuToggle.setAttribute('aria-label', 'Buka menu');
-        menuToggle.textContent = '☰';
-      });
-    });
-  </script>
-  <section class="soft" id="cek-area">
+<section class="soft" id="cek-area">
   <div class="wrap">
     <div class="section-head">
       <h2>Cek Jangkauan MyRepublic</h2>
@@ -835,9 +749,92 @@ kartu.append(nama, detail, catatan, tombol);
     console.error(error);
   }
 })();
+    <section class="soft" id="faq">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Pertanyaan yang sering diajukan</h2>
+          <p>Jawaban singkat untuk membantu sebelum konsultasi.</p>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Apakah biaya pemasangan benar-benar gratis?</summary>
+            <p>Tersedia penawaran gratis biaya pemasangan senilai Rp500.000 dengan syarat dan ketentuan berlaku. Kelayakan alamat, program, dan ketentuan terbaru perlu dikonfirmasi sebelum pendaftaran.</p>
+          </details>
+          <details>
+            <summary>Apakah semua wilayah Kendal sudah terjangkau?</summary>
+            <p>Belum tentu. Ketersediaan jaringan bisa berbeda antar desa, jalan, dan lingkungan. Kirim alamat lengkap untuk pengecekan terlebih dahulu.</p>
+          </details>
+          <details>
+            <summary>Apakah harga paket di website sudah pasti?</summary>
+            <p>Harga yang tercantum adalah informasi awal berdasarkan data yang tersedia saat halaman diperbarui. Harga, pajak, promo, dan ketentuan terbaru wajib dikonfirmasi sebelum pendaftaran.</p>
+          </details>
+          <details>
+            <summary>Apakah WiFi bisa menggunakan 2,4 GHz dan 5 GHz?</summary>
+            <p>Dukungan dual band bergantung pada perangkat/ONT yang diberikan dan perangkat pelanggan. Konfirmasikan spesifikasi perangkat saat konsultasi.</p>
+          </details>
+          <details>
+            <summary>Apakah saya tetap bisa menghubungi Faizudin setelah pemasangan?</summary>
+            <p>Ya. Pelanggan yang mendaftar melalui halaman ini dapat menghubungi Faizudin untuk konsultasi dan pendampingan selama berlangganan. Untuk gangguan teknis, laporan tetap mengikuti kanal resmi MyRepublic.</p>
+          </details>
+          <details>
+            <summary>Apakah halaman ini website resmi pusat MyRepublic?</summary>
+            <p>Bukan. Ini halaman informasi dan konsultasi lokal yang dikelola oleh Faizudin sebagai sales. Nama dan merek MyRepublic merupakan milik pemegang haknya.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="contact-card">
+          <h2>Butuh bantuan memilih paket?</h2>
+          <p>Konsultasikan kebutuhan dan alamatmu terlebih dahulu. Kami bantu jelaskan pilihan paket serta proses pendaftarannya.</p>
+          <a class="btn" href="https://wa.me/6287880767154?text=Halo%20Faizudin%2C%20saya%20ingin%20konsultasi%20internet%20MyRepublic%20Kendal." target="_blank" rel="noopener">Chat Faizudin · 0878-8076-7154</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-row">
+        <div>
+          <strong style="font-size:1.2rem">MyRepublic Kendal</strong>
+          <p>Informasi, konsultasi, dan pendampingan pendaftaran internet.</p>
+        </div>
+        <div>
+          <strong>Faizudin · Konsultasi & Pendaftaran</strong>
+          <p>WhatsApp: 0878-8076-7154</p>
+          <a class="btn" href="https://wa.me/6287880767154" target="_blank" rel="noopener">Hubungi WhatsApp</a>
+        </div>
+      </div>
+      <p class="disclaimer">Halaman ini dikelola secara independen oleh Faizudin untuk informasi dan konsultasi lokal, bukan situs resmi perusahaan MyRepublic. Harga, promo, cakupan jaringan, kecepatan, perangkat, serta ketentuan layanan dapat berubah dan wajib dikonfirmasi sebelum berlangganan. Penawaran gratis pemasangan senilai Rp500.000 tunduk pada syarat dan ketentuan yang berlaku.</p>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/6287880767154?text=Halo%20Faizudin%2C%20saya%20dari%20website%20MyRepublic%20Kendal." target="_blank" rel="noopener" aria-label="Chat WhatsApp Faizudin">WhatsApp ↗</a>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+
+    menuToggle.addEventListener('click', function () {
+      const isOpen = navLinks.classList.toggle('open');
+      menuToggle.setAttribute('aria-expanded', String(isOpen));
+      menuToggle.setAttribute('aria-label', isOpen ? 'Tutup menu' : 'Buka menu');
+      menuToggle.textContent = isOpen ? '×' : '☰';
+    });
+
+    navLinks.querySelectorAll('a').forEach(function (link) {
+      link.addEventListener('click', function () {
+        navLinks.classList.remove('open');
+        menuToggle.setAttribute('aria-expanded', 'false');
+        menuToggle.setAttribute('aria-label', 'Buka menu');
+        menuToggle.textContent = '☰';
+      });
+    });
+  </script>
 </script>
 
-</body>
-</html>
 </body>
 </html>
